@@ -23,7 +23,7 @@ function redisCore()
 	{
 		port = port?port:6379;
 		host = host?host:'127.0.0.1';
-		var tcp = net.createConnection(6379,host);
+		var tcp = net.createConnection(port,host);
 		tcp.unref();
 
 		if(returnbuffers) returnbuffersoption=true
