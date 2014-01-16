@@ -1,0 +1,17 @@
+{
+  "name": "redislite",
+  "version": "0.1.0",
+  "description": "Redis client for nodejs with single and simple.",
+  "main": "redis.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/clcarwin/node-redis"
+  },
+  "keywords": [
+    "redis",
+    "database",
+    "client"
+  ],
+  "author": "carwin",
+  "license": "MIT"
+}
